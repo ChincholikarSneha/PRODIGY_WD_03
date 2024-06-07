@@ -1,0 +1,49 @@
+body {  
+    font-style: italic;
+    font-size: 20px;
+    color:rgb(244, 45, 78);
+    background-color: rgb(43, 42, 42)
+}
+
+h1 {
+    text-align: center;
+}
+
+#board {
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    height: 375px;  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #faf7f7;
+    background-color: #fdf2f2;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square:hover {
+    background-color:rgb(217, 233, 248);
+}
+
+#restartButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 150px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+}
+
+#restartButton:hover {
+    background-color:rgb(189, 219, 247);
+}
